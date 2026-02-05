@@ -1,0 +1,151 @@
+
+<head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap");
+
+    .heading {
+      text-align: center;
+      font-family: 'Caesar Dressing';
+      font-size: 15px;
+    }
+
+    /* .button {
+      position: absolute;
+      top: 1%;
+      width: 30%;
+      margin: px;
+      padding: 30px;
+      cursor: pointer;
+      font-weight: bold;
+      background: #f3e37c;
+      color: darkgoldenrod;
+      border-radius: 6px;
+      border: 11px solid #eea243;
+      font-size: 20px;
+      transition-duration: 0.4s
+    }
+*/
+    .left {
+      right: 60%;
+    }
+
+    .right {
+      left: 60%;
+    }
+
+    .wrapper {
+      text-align: center;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    ul.topnav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      /*backcolor*/
+      background-color: #a63c06;
+    }
+
+    ul.topnav li {
+      float: left;
+    }
+
+    /*text color*/
+    ul.topnav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /*Highlight color*/
+    ul.topnav li a:hover:not(.active) {
+      background-color: #710000;
+    }
+
+    /*Already clicked items*/
+    ul.topnav li a.active {
+      background-color: #c36f09;
+    }
+
+    ul.topnav li.right {
+      float: right;
+    }
+
+    @media screen and (max-width: 600px) {
+
+      ul.topnav li.right,
+      ul.topnav li {
+        float: none;
+      }
+    }
+
+    .chicken {
+      width: 100%;
+    }
+
+    .box-1 {
+      flex: 1 1 300px;
+      background-color: #e9c46a;
+      aspect-ratio: 1 / 1;
+    }
+
+    .box-2 {
+      flex: 1 1 300px;
+      background-color: #f4a261;
+      aspect-ratio: 1 / 1;
+    }
+
+    .box-3 {
+      flex: 1 1 300px;
+      background-color: #e76f51;
+      aspect-ratio: 1 / 1;
+    }
+
+    .depad {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      
+    }
+
+    .selector {
+      padding-bottom: percentage or calc();
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- <div class="wrapper">
+    <button id="services" class="heading button left">Zero Hunger</button>
+  </div>
+  <div class="wrapper">
+    <button class="heading button right">Demeter</button>
+  </div>-->
+  <!-- Navbar -->
+  <ul class="topnav heading">
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">Tracker</a></li>
+    <li class="right"><a href="#about">About</a></li>
+  </ul>
+  <!-- 2nd SDG Banner -->
+  <img class="chicken" src="https://moabfoundation.org/wp-content/uploads/2020/05/sdg2.png" alt="2nd sdg banner">
+  <!-- Boxes -->
+  <div class="container depad">
+    <div class="box-1"></div>
+    <div class="box-2"></div>
+    <div class="box-3"></div>
+  </div>
+  <!--<img alt="picture of a house" src="https://www.iconpacks.net/icons/2/free-home-icon-2502-thumb.png">-->
+</body>
