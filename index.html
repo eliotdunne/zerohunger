@@ -1,5 +1,9 @@
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zero Hunger - SDG 2</title>
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap");
 
@@ -87,24 +91,34 @@
 
     .chicken {
       width: 100%;
+      display: block;
     }
 
     .box-1 {
       flex: 1 1 300px;
       background-color: #e9c46a;
       aspect-ratio: 1 / 1;
+      background-image: url(https://www.freeiconspng.com/uploads/house-icon-png-white-32.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
     }
-
     .box-2 {
       flex: 1 1 300px;
       background-color: #f4a261;
       aspect-ratio: 1 / 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .box-3 {
       flex: 1 1 300px;
       background-color: #e76f51;
       aspect-ratio: 1 / 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .depad {
@@ -116,11 +130,48 @@
     .container {
       display: flex;
       flex-wrap: wrap;
-      
     }
 
     .selector {
       padding-bottom: percentage or calc();
+    }
+
+    /* MOBILE RESPONSIVENESS - Phone Compatibility */
+    @media (max-width: 768px) {
+      /* Stack boxes vertically on phones */
+      .container {
+        flex-direction: column;
+      }
+      
+      /* Make boxes full width on mobile */
+      .box-1, .box-2, .box-3 {
+        width: 100%;
+        flex: 1 1 auto;
+        min-height: 250px;
+      }
+      
+      /* Adjust navbar for mobile */
+      ul.topnav li a {
+        padding: 12px 14px;
+        font-size: 14px;
+      }
+      
+      /* Make heading smaller on mobile */
+      .heading {
+        font-size: 13px;
+      }
+    }
+
+    /* Extra small phones */
+    @media (max-width: 480px) {
+      ul.topnav li a {
+        padding: 10px 12px;
+        font-size: 12px;
+      }
+      
+      .box-1, .box-2, .box-3 {
+        min-height: 200px;
+      }
     }
   </style>
 </head>
@@ -149,3 +200,4 @@
   </div>
   <!--<img alt="picture of a house" src="https://www.iconpacks.net/icons/2/free-home-icon-2502-thumb.png">-->
 </body>
+</html>
