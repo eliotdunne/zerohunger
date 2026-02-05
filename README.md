@@ -1,2 +1,3 @@
 # zerohunger
-A website for a competition
+A website I made for a competition
+https://eliotdunne.github.io/zerohunger/
