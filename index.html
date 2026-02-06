@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -102,6 +103,14 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      padding: 0;
+      font-family: 'Caesar Dressing';
+      font-size: 20px;
+      color: white;
+      transition: opacity 0.3s;
     }
 
     .box-2 {
@@ -115,6 +124,14 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      padding: 0;
+      font-family: 'Caesar Dressing';
+      font-size: 20px;
+      color: white;
+      transition: opacity 0.3s;
     }
 
     .box-3 {
@@ -127,6 +144,20 @@
       background-image: url(https://static.thenounproject.com/png/1876966-200.png);
       background-repeat: no-repeat;
       background-size: cover;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      padding: 0;
+      font-family: 'Caesar Dressing';
+      font-size: 20px;
+      color: white;
+      transition: opacity 0.3s;
+    }
+
+    .box-1:hover,
+    .box-2:hover,
+    .box-3:hover {
+      opacity: 0.8;
     }
 
     .depad {
@@ -138,6 +169,7 @@
     .container {
       display: flex;
       flex-wrap: wrap;
+      border: none;
     }
 
     .selector {
@@ -159,6 +191,7 @@
         width: 100%;
         flex: 1 1 auto;
         min-height: 250px;
+        outline: none;
       }
 
       /* Adjust navbar for mobile */
@@ -186,6 +219,7 @@
         min-height: 200px;
       }
     }
+
     body {
       background-color: #ffc971;
     }
@@ -210,11 +244,20 @@
   <img class="chicken" src="https://moabfoundation.org/wp-content/uploads/2020/05/sdg2.png" alt="2nd sdg banner">
   <!-- Boxes -->
   <div class="container depad">
-    <div class="box-1"></div>
-    <div class="box-2"></div>
-    <div class="box-3"></div>
+
+    <a href="https://google.com" style="flex: 1 1 300px; text-decoration: none;">
+      <div class="box-1"></div>
+    </a>
+
+      <a href="https://google.com" style="flex: 1 1 300px; text-decoration: none;">
+        <button class="box-2"></button>
+      </a>
+
+      <a href="https://google.com" style="flex: 1 1 300px; text-decoration: none;">
+        <button class="box-3"></button>
+      </a>
   </div>
-  <!--<img alt="picture of a house" src="https://www.iconpacks.net/icons/2/free-home-icon-2502-thumb.png">-->
+
 </body>
 
 </html>
