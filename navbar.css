@@ -1,0 +1,68 @@
+    @import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap");
+
+    body {
+      background-color: #ffc971;
+    }
+
+    .heading {
+      text-align: center;
+      font-family: 'Caesar Dressing';
+    }
+
+    .wrapper {
+      text-align: center;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    ul.topnav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      /*backcolor*/
+      background-color: #a63c06;
+    }
+
+    ul.topnav li {
+      float: left;
+    }
+
+    /*text color*/
+    ul.topnav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 24px 30px;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+    .chicken {
+      width: 100%;
+      display: block;
+    }
+
+    /*Highlight color*/
+    ul.topnav li a:hover:not(.active) {
+      background-color: #710000;
+    }
+
+    /*Already clicked items*/
+    ul.topnav li a.active {
+      background-color: #c36f09;
+    }
+
+    ul.topnav li.right {
+      float: right;
+    }
+
+    @media screen and (max-width: 600px) {
+
+      ul.topnav li.right,
+      ul.topnav li {
+        float: none;
+      }
+    }
