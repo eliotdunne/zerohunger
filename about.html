@@ -1,1 +1,223 @@
-<h1>About World</h1>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zero Hunger Demeter - Home</title>
+  <link rel="stylesheet" href="navbar.css">
+      <link rel="icon" type="image/x-icon" href="about.ico">
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap");
+
+    .heading {
+      text-align: center;
+      font-family: 'Caesar Dressing';
+    }
+
+    /* .button {
+      position: absolute;
+      top: 1%;
+      width: 30%;
+      margin: px;
+      padding: 30px;
+      cursor: pointer;
+      font-weight: bold;
+      background: #f3e37c;
+      color: darkgoldenrod;
+      border-radius: 6px;
+      border: 11px solid #eea243;
+      font-size: 20px;
+      transition-duration: 0.4s
+    }
+*/
+    .left {
+      right: 60%;
+    }
+
+    .right {
+      left: 60%;
+    }
+
+    .wrapper {
+      text-align: center;
+    }
+
+
+    .box-1 {
+      flex: 1 1 300px;
+      background-color: #e9c46a;
+      aspect-ratio: 1 / 1;
+      background-image: url(https://www.freeiconspng.com/uploads/house-icon-png-white-32.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      padding: 0;
+      font-family: 'Caesar Dressing';
+      font-size: 20px;
+      color: white;
+      transition: opacity 0.3s;
+    }
+
+    .box-2 {
+      flex: 1 1 300px;
+      background-color: #ffbb50;
+      background-image: url(https://cdn-icons-png.flaticon.com/512/724/724933.png);
+      aspect-ratio: 1 / 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      padding: 0;
+      font-family: 'Caesar Dressing';
+      font-size: 20px;
+      color: white;
+      transition: opacity 0.3s;
+    }
+
+    .box-3 {
+      flex: 1 1 300px;
+      background-color: #ffa25c;
+      aspect-ratio: 1 / 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(https://cdn-icons-png.flaticon.com/512/3037/3037366.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      padding: 0;
+      font-family: 'Caesar Dressing';
+      font-size: 20px;
+      color: white;
+      transition: opacity 0.3s;
+    }
+
+    .box-1:hover,
+    .box-2:hover,
+    .box-3:hover {
+      opacity: 0.8;
+    }
+
+    .depad {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      border: none;
+    }
+
+    .selector {
+      padding-bottom: percentage or calc();
+    }
+
+    /* MOBILE RESPONSIVENESS - Phone Compatibility */
+    @media (max-width: 768px) {
+
+      /* Stack boxes vertically on phones */
+      .container {
+        flex-direction: column;
+      }
+
+      /* Make boxes full width on mobile */
+      .box-1,
+      .box-2,
+      .box-3 {
+        width: 100%;
+        flex: 1 1 auto;
+        min-height: 250px;
+        outline: none;
+      }
+
+      /* Fix the anchor tag wrappers on mobile */
+      .container a {
+        flex: 1 1 auto;
+        width: 100%;
+      }
+
+      /* Adjust navbar for mobile */
+      ul.topnav li a {
+        padding: 12px 14px;
+        font-size: 14px;
+      }
+
+      /* Make heading smaller on mobile */
+      .heading {
+        font-size: 13px;
+      }
+    }
+
+    /* Extra small phones */
+    @media (max-width: 480px) {
+      ul.topnav li a {
+        padding: 10px 12px;
+        font-size: 12px;
+      }
+
+      .box-1,
+      .box-2,
+      .box-3 {
+        min-height: 200px;
+      }
+
+      /* Fix anchor tags on small phones too */
+      .container a {
+        width: 100%;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- <div class="wrapper">
+    <button id="services" class="heading button left">Zero Hunger</button>
+  </div>
+  <div class="wrapper">
+    <button class="heading button right">Demeter</button>
+  </div>-->
+  <!-- Navbar -->
+  <ul class="topnav heading">
+    <li><a  href="index.html">Home</a></li>
+    <li><a href="tracker.html">Tracker</a></li>
+    <li class="right"><a class="active" href="about.html">About</a></li>
+        <!--<li class="right"><a href="https://drive.google.com/uc?export=download&id=1q7MWy3AW014lng75qaEyH-nneQE6Cjrr">Download</a></li>-->
+  </ul>
+  <!-- About Banner -->
+  <img class="chicken" src="about.png" alt="2nd sdg banner">
+  <!-- Boxes -->
+  <div class="container depad">
+    <!--
+    <a href="#home" style="flex: 1 1 300px; text-decoration: none;">
+      <div class="box-1"></div>
+    </a> -->
+
+    <a href="download.html" style="flex: 1 1 300px; text-decoration: none;">
+      <button class="box-2"></button>
+    </a>
+
+    <a href="https://docs.google.com/presentation/d/1q7MWy3AW014lng75qaEyH-nneQE6Cjrr/edit?usp=sharing&ouid=105003736489548021046&rtpof=true&sd=true" target="_blank" style="flex: 1 1 300px; text-decoration: none;">
+      <button class="box-3"></button>
+    </a>
+  </div>
+
+
+
+</body>
+
+</html>
+
