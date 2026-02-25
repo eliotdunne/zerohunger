@@ -39,12 +39,27 @@
       font-size: 20px;
       text-decoration: none;
     }
+select {
+  margin: 50px;
+
+  padding: 5px 55px 10px 10px;
+  font-size: 16px;
+  border: 7px solid #cea323;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(about.ico) 96% / 15% no-repeat #ffc765;
+}
 
     .chicken {
       width: 100%;
       display: block;
     }
 
+    .codingishard{
+font-size: 50px;
+    }
     /*Highlight color*/
     ul.topnav li a:hover:not(.active) {
       background-color: #710000;
