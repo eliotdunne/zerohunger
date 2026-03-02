@@ -1,11 +1,15 @@
     @import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap");
 
     body {
-      background-color: #ffc971;
+      background-color: #a5ff71;
     }
 
     .heading {
       text-align: center;
+      font-family: 'Caesar Dressing';
+    }
+    .font {
+
       font-family: 'Caesar Dressing';
     }
 
@@ -23,7 +27,7 @@
       padding: 0;
       overflow: hidden;
       /*backcolor*/
-      background-color: #a63c06;
+      background-color: #3c8108;
     }
 
     ul.topnav li {
@@ -44,12 +48,12 @@ select {
 
   padding: 5px 55px 10px 10px;
   font-size: 16px;
-  border: 7px solid #cea323;
+  border: 7px solid #4fe741;
 
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url(about.ico) 96% / 15% no-repeat #ffc765;
+  background: url(about.ico) 96% / 15% no-repeat #52c247;
 }
 
     .chicken {
@@ -62,12 +66,12 @@ font-size: 50px;
     }
     /*Highlight color*/
     ul.topnav li a:hover:not(.active) {
-      background-color: #710000;
+      background-color: #2d8f20;
     }
 
     /*Already clicked items*/
     ul.topnav li a.active {
-      background-color: #c36f09;
+      background-color: #0f4e02;
     }
 
     ul.topnav li.right {
