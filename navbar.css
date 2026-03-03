@@ -1,7 +1,7 @@
     @import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap");
 
     body {
-      background-color: #a5ff71;
+      background-color: #ffed92;
     }
 
     .heading {
@@ -27,7 +27,7 @@
       padding: 0;
       overflow: hidden;
       /*backcolor*/
-      background-color: #3c8108;
+      background-color: #cbb33a;
     }
 
     ul.topnav li {
@@ -48,12 +48,12 @@ select {
 
   padding: 5px 55px 10px 10px;
   font-size: 16px;
-  border: 7px solid #4fe741;
+  border: 7px solid #e7b541;
 
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url(about.ico) 96% / 15% no-repeat #52c247;
+  background: url(about.ico) 96% / 15% no-repeat #f5e56c;
 }
 
     .chicken {
@@ -66,12 +66,13 @@ font-size: 50px;
     }
     /*Highlight color*/
     ul.topnav li a:hover:not(.active) {
-      background-color: #2d8f20;
+      background-color: #e0c32d;
+    
     }
 
     /*Already clicked items*/
     ul.topnav li a.active {
-      background-color: #0f4e02;
+      background-color: #a3660a;
     }
 
     ul.topnav li.right {

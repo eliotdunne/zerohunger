@@ -22,7 +22,8 @@
   <img class="chicken" src="local shop Tracker.png" alt="2nd sdg banner">
   <center>
     <br>
-  <label class="heading codingishard" for="cars">Enter your location</label>
+    <div class="heading codingishard">
+  <label  for="cars">Enter your location</label>
 
   <!--To whoever is reading this, I apoligise for this code-->
 <select class="codingishard heading" id="pageSelect" name="cars" >
@@ -207,6 +208,8 @@
   <option value="Areas/WindyArbour.html">Windy Arbour</option>
 
 </select>
+
+</div>
 <script>
   document.getElementById('pageSelect').addEventListener('change', function () {
     const url = this.value;
